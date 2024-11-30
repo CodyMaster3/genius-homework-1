@@ -1,0 +1,158 @@
+:root {
+  --color-primary-light: #fff;
+  --color-primary-dark: #011c44;
+  --color-brand: #2b7fff;
+  --color-secondary-dark: #011f4a;
+  --color-gray-light: #747272;
+  --color-gray-dark: #4a4a4a;
+}
+/* roboto-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v32-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+/* roboto-500 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v32-cyrillic_latin-500.woff2') format('woff2');
+}
+
+/* roboto-700 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v32-cyrillic_latin-700.woff2') format('woff2');
+}
+
+/* roboto-900 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v32-cyrillic_latin-900.woff2') format('woff2');
+}
+
+/* play-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+/* play-700 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+/* Base */
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  color: var(--color-primary-dark);
+  font-size: 16px;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header section */
+.header-link {
+  color: var(--color-primary-dark);
+}
+
+.header-link:hover {
+  color: var(--color-brand);
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-title {
+  font-family: Play;
+  font-size: 64px;
+  line-height: auto;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--color-brand);
+}
+
+.section-title {
+  font-family: Play;
+  font-size: 32px;
+  color: var(--color-primary-dark);
+}
+
+.button {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+.transform-section .accent {
+  text-transform: capitalize;
+}
+
+.benefit-card {
+  background-color: var(--color-primary-light);
+  color: #000;
+}
+
+.accent {
+  color: var(--color-brand);
+}
+
+.dark {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+footer {
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-dark);
+}
+
+.footer-link {
+  color: var(--color-primary-light);
+}
+
+.copy {
+  color: var(--color-gray-light);
+}
+
+.article-title {
+  font-weight: 400;
+  color: var(--color-primary-light);
+  font-size: 22px;
+}
